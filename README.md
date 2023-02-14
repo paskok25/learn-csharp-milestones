@@ -81,17 +81,17 @@ Diving into Variables, Types, and Methods (38–64)
 ## Chapter 4
 Control Flow and Collection Types (65–93)
 
-- [ ] Update Assets/Scripts/LearningCurve.cs
-	- [ ] Conditionals
-		- [ ] Write `if`, `else if`, and `else` statements
-		- [ ] Test for `true` and `!true` in a conditional
-		- [ ] Write a nested `if` statement
-		- [ ] Write a `switch` statement
+- [done] Update Assets/Scripts/LearningCurve.cs
+	- [done] Conditionals
+		- [done] Write `if`, `else if`, and `else` statements
+		- [done] Test for `true` and `!true` in a conditional
+		- [done] Write a nested `if` statement
+		- [done] Write a `switch` statement
 	- [ ] Collections
-		- [ ] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : **??**
-		- [ ] Write an Array of the type `int[]`
-		- [ ] Write a List of the type `List<string>`
-		- [ ] Write a Dictionary of the type `Dictionary<string, int>`
+		- [done] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : green
+		- [done] Write an Array of the type `int[]`
+		- [donea] Write a List of the type `List<string>`
+		- [done] Write a Dictionary of the type `Dictionary<string, int>`
 	- [ ] Loops
 		- [ ] Use a `for` loop to print a specific index of a `List<string>`
 		- [ ] Use a `foreach` loop to print all indexes of a `List<string>`
