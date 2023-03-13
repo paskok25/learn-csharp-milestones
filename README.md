@@ -120,13 +120,13 @@ Working with Classes, Structs, and OOP (94–119)
 		- [done] Instantiate two new Weapon objects `huntingBow` and `warBow` from the `Weapon` struct
 		- [done] Print out each weapons' data
 - Child classes
-	- [ ] Update Assets/Scripts/Character.cs
-		- [ ] Add a `Paladin` child class of `Character`
-		- [ ] Create a `Weapon` field inside the Paladin class
-		- [ ] Create a `Paladin()` constructor that calls the `base()` constructor. Populate the weapon in a parameter
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate a new Paladin object `knight` from the Paladin class
-		- [ ] Print the Paladin's name and weapon by overriding `PrintStatsInfo` in the base class
+	- [done] Update Assets/Scripts/Character.cs
+		- [done] Add a `Paladin` child class of `Character`
+		- [done] Create a `Weapon` field inside the Paladin class
+		- [done] Create a `Paladin()` constructor that calls the `base()` constructor. Populate the weapon in a parameter
+	- [done] Update Assets/Scripts/LearningCurve.cs
+		- [done] Instantiate a new Paladin object `knight` from the Paladin class
+		- [done] Print the Paladin's name and weapon by overriding `PrintStatsInfo` in the base class
 - Referencing objects
 	- [ ] Update Assets/Scripts/LearningCurve.cs
 		- [ ] Store a reference to the current game object's (Main Camera) `Transform` component using `GetComponent<>()`
