@@ -142,10 +142,10 @@ Getting Your Hands Dirty with Unity (120–148)
 
 - [done] Use primitive cubes and move, rotate, and scale tools to create a level or "world" in Unity
 - [done] Add materials to primitives in Unity to change their color
-- [ ] Use parenting and "empty objects" in the Hierarchy tab to organize your project
-- [ ] Create, update, and use prefab game objects
-- [ ] Create timeline animations by recording keyframes and editing curves in Unity
-- [ ] Add and edit a particle system to a game object in Unity
+- [done] Use parenting and "empty objects" in the Hierarchy tab to organize your project
+- [done] Create, update, and use prefab game objects
+- [done] Create timeline animations by recording keyframes and editing curves in Unity
+- [done] Add and edit a particle system to a game object in Unity
 
 
 
@@ -153,19 +153,19 @@ Getting Your Hands Dirty with Unity (120–148)
 ## Chapter 7
 Movement, Camera Controls, and Collisions (149–175)
 
-- [ ] Movement
-	- [ ] Understand the difference between a "position vector" and a "direction vector"
-	- [ ] Capture keyboard input in C#
-	- [ ] Move and rotate a game object using `Translate()` and `Rotate()` with direction vectors
-- [ ] Camera Controls
-	- [ ] Add a script to the main camera that follows and looks at the player
-- [ ] Physics and Collisions
-	- [ ] Use `FixedUpdate()` to control game objects using Unity's physics engine
-	- [ ] Apply physics forces to a game object RigidBody using `MovePosition()`
-	- [ ] ✏️ Q: Will a [collision detection](https://docs.unity3d.com/Manual/CollidersOverview.html) occur when a Kinematic Rigidbody Collider touches a Static Collider? : **??**
-	- [ ] Use `OnCollisionEnter()` to check if a game object has run into another collider
-	- [ ] Use `Destroy()` to remove a game object from the scene
-	- [ ] Use `OnTriggerEnter()` and `OnTriggerExit()` to detect when two colliders start and stop touching
+- [done] Movement
+	- [done] Understand the difference between a "position vector" and a "direction vector"
+	- [done] Capture keyboard input in C#
+	- [done] Move and rotate a game object using `Translate()` and `Rotate()` with direction vectors
+- [done] Camera Controls
+	- [done] Add a script to the main camera that follows and looks at the player
+- [done] Physics and Collisions
+	- [done] Use `FixedUpdate()` to control game objects using Unity's physics engine
+	- [done] Apply physics forces to a game object RigidBody using `MovePosition()`
+	- [done] ✏️ Q: Will a [collision detection](https://docs.unity3d.com/Manual/CollidersOverview.html) occur when a Kinematic Rigidbody Collider touches a Static Collider? : No, collision detection doesn't occur in this case. 
+	- [done] Use `OnCollisionEnter()` to check if a game object has run into another collider
+	- [done] Use `Destroy()` to remove a game object from the scene
+	- [done] Use `OnTriggerEnter()` and `OnTriggerExit()` to detect when two colliders start and stop touching
 
 
 
