@@ -103,7 +103,7 @@ Control Flow and Collection Types (65–93)
 Working with Classes, Structs, and OOP (94–119)
 
 - Classes
-	- [ ] ✏️ Explain the difference between reference and value type variables: **??**
+	- [done] ✏️ Explain the difference between reference and value type variables: Reference type variables stores addresses where values are stored. Value type variables directly store the value.
 	- [ ] Create Assets/Scripts/Character.cs
 		- [ ] Create a `Character` class
 		- [ ] Create `string` and `int` fields inside the Character class
