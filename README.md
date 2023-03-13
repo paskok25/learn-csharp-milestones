@@ -111,14 +111,14 @@ Working with Classes, Structs, and OOP (94–119)
 	- [done] Update Assets/Scripts/LearningCurve.cs
 		- [done] Instantiate two new Character objects `hero` and `heroine` from the `Character` class
 		- [done] Print out each characters data
-- [ ] Structs
-	- [ ] Update Assets/Scripts/Character.cs
-		- [ ] Add a `Weapon` struct
-		- [ ] Create `string` and `int` fields inside the Weapon struct
-		- [ ] Create a `Weapon()` constructor and populate the above fields with its parameters
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate two new Weapon objects `huntingBow` and `warBow` from the `Weapon` struct
-		- [ ] Print out each weapons' data
+- [done] Structs
+	- [done] Update Assets/Scripts/Character.cs
+		- [done] Add a `Weapon` struct
+		- [done] Create `string` and `int` fields inside the Weapon struct
+		- [done] Create a `Weapon()` constructor and populate the above fields with its parameters
+	- [done] Update Assets/Scripts/LearningCurve.cs
+		- [done] Instantiate two new Weapon objects `huntingBow` and `warBow` from the `Weapon` struct
+		- [done] Print out each weapons' data
 - Child classes
 	- [ ] Update Assets/Scripts/Character.cs
 		- [ ] Add a `Paladin` child class of `Character`
