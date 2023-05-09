@@ -56,46 +56,46 @@ Getting to Know Your Environment (9–21)
 ## Chapter 2
 The Building Blocks of Programming (22–37)
 
-- [ ] Open the Unity project contained within this repo
-- [ ] Create Assets/Scripts/LearningCurve.cs
-	- [ ] Create C# variables with typeof `int`, `float`, `string`, and `bool`
-	- [ ] Add a single line, multi line, and summary comment to LearningCurve.cs
-	- [ ] Run the code in LearningCurve by attaching it to the Main Camera GameObject
+- [done] Open the Unity project contained within this repo
+- [done] Create Assets/Scripts/LearningCurve.cs
+	- [done] Create C# variables with typeof `int`, `float`, `string`, and `bool`
+	- [done] Add a single line, multi line, and summary comment to LearningCurve.cs
+	- [done] Run the code in LearningCurve by attaching it to the Main Camera GameObject
 
 
 ## Chapter 3
 Diving into Variables, Types, and Methods (38–64)
 
-- [ ] Update Assets/Scripts/LearningCurve.cs
-	- [ ] Variables
-		- [ ] Use access modifiers to make your variables explicitly `public` and `private`
-		- [ ] Use `Debug.Log` and `Debug.LogFormat` to log your variables to the console
-		- [ ] Concatenate strings using the `+` operator, and the string interpolation method `$`
-	- [ ] Methods
-		- [ ] Define a simple method with parameters
-		- [ ] Add a return type and return some data from a method
-		- [ ] Use data returned from a method
-- [ ] ✏️ Explain some differences between public and private variables: **??**
+- [done] Update Assets/Scripts/LearningCurve.cs
+	- [done] Variables
+		- [done] Use access modifiers to make your variables explicitly `public` and `private`
+		- [done] Use `Debug.Log` and `Debug.LogFormat` to log your variables to the console
+		- [done] Concatenate strings using the `+` operator, and the string interpolation method `$`
+	- [done] Methods
+		- [done] Define a simple method with parameters
+		- [done] Add a return type and return some data from a method
+		- [done] Use data returned from a method
+- [done] ✏️ Explain some differences between public and private variables: Public variables can be seen in the Unity Inspected window and can also be edited in Unity. Private variables are only shown in the code.
 
 
 ## Chapter 4
 Control Flow and Collection Types (65–93)
 
-- [ ] Update Assets/Scripts/LearningCurve.cs
-	- [ ] Conditionals
-		- [ ] Write `if`, `else if`, and `else` statements
-		- [ ] Test for `true` and `!true` in a conditional
-		- [ ] Write a nested `if` statement
-		- [ ] Write a `switch` statement
-	- [ ] Collections
-		- [ ] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : **??**
-		- [ ] Write an Array of the type `int[]`
-		- [ ] Write a List of the type `List<string>`
-		- [ ] Write a Dictionary of the type `Dictionary<string, int>`
-	- [ ] Loops
-		- [ ] Use a `for` loop to print a specific index of a `List<string>`
-		- [ ] Use a `foreach` loop to print all indexes of a `List<string>`
-		- [ ] Use a `foreach` loop to print the `KeyValuePair.Key` and `KeyValuePair.Value` of all indexes of a `Dictionary<string, int>`
+- [done] Update Assets/Scripts/LearningCurve.cs
+	- [done] Conditionals
+		- [done] Write `if`, `else if`, and `else` statements
+		- [done] Test for `true` and `!true` in a conditional
+		- [done] Write a nested `if` statement
+		- [done] Write a `switch` statement
+	- [done] Collections
+		- [done] ✏️ What will `arr[1]` return from this array `int[] arr = {'red','green','blue'};` ? : green
+		- [done] Write an Array of the type `int[]`
+		- [donea] Write a List of the type `List<string>`
+		- [done] Write a Dictionary of the type `Dictionary<string, int>`
+	- [done] Loops
+		- [done] Use a `for` loop to print a specific index of a `List<string>`
+		- [done] Use a `foreach` loop to print all indexes of a `List<string>`
+		- [done] Use a `foreach` loop to print the `KeyValuePair.Key` and `KeyValuePair.Value` of all indexes of a `Dictionary<string, int>`
 
 
 
@@ -103,49 +103,49 @@ Control Flow and Collection Types (65–93)
 Working with Classes, Structs, and OOP (94–119)
 
 - Classes
-	- [ ] ✏️ Explain the difference between reference and value type variables: **??**
-	- [ ] Create Assets/Scripts/Character.cs
-		- [ ] Create a `Character` class
-		- [ ] Create `string` and `int` fields inside the Character class
-		- [ ] Create a `Character()` constructor and populate the above fields with its parameters
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate two new Character objects `hero` and `heroine` from the `Character` class
-		- [ ] Print out each characters data
-- [ ] Structs
-	- [ ] Update Assets/Scripts/Character.cs
-		- [ ] Add a `Weapon` struct
-		- [ ] Create `string` and `int` fields inside the Weapon struct
-		- [ ] Create a `Weapon()` constructor and populate the above fields with its parameters
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate two new Weapon objects `huntingBow` and `warBow` from the `Weapon` struct
-		- [ ] Print out each weapons' data
+	- [done] ✏️ Explain the difference between reference and value type variables: Reference type variables stores addresses where values are stored. Value type variables directly store the value.
+	- [done] Create Assets/Scripts/Character.cs
+		- [done] Create a `Character` class
+		- [done] Create `string` and `int` fields inside the Character class
+		- [done] Create a `Character()` constructor and populate the above fields with its parameters
+	- [done] Update Assets/Scripts/LearningCurve.cs
+		- [done] Instantiate two new Character objects `hero` and `heroine` from the `Character` class
+		- [done] Print out each characters data
+- [done] Structs
+	- [done] Update Assets/Scripts/Character.cs
+		- [done] Add a `Weapon` struct
+		- [done] Create `string` and `int` fields inside the Weapon struct
+		- [done] Create a `Weapon()` constructor and populate the above fields with its parameters
+	- [done] Update Assets/Scripts/LearningCurve.cs
+		- [done] Instantiate two new Weapon objects `huntingBow` and `warBow` from the `Weapon` struct
+		- [done] Print out each weapons' data
 - Child classes
-	- [ ] Update Assets/Scripts/Character.cs
-		- [ ] Add a `Paladin` child class of `Character`
-		- [ ] Create a `Weapon` field inside the Paladin class
-		- [ ] Create a `Paladin()` constructor that calls the `base()` constructor. Populate the weapon in a parameter
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Instantiate a new Paladin object `knight` from the Paladin class
-		- [ ] Print the Paladin's name and weapon by overriding `PrintStatsInfo` in the base class
+	- [done] Update Assets/Scripts/Character.cs
+		- [done] Add a `Paladin` child class of `Character`
+		- [done] Create a `Weapon` field inside the Paladin class
+		- [done] Create a `Paladin()` constructor that calls the `base()` constructor. Populate the weapon in a parameter
+	- [done] Update Assets/Scripts/LearningCurve.cs
+		- [done] Instantiate a new Paladin object `knight` from the Paladin class
+		- [done] Print the Paladin's name and weapon by overriding `PrintStatsInfo` in the base class
 - Referencing objects
-	- [ ] Update Assets/Scripts/LearningCurve.cs
-		- [ ] Store a reference to the current game object's (Main Camera) `Transform` component using `GetComponent<>()`
-		- [ ] Log a reference to the `localPosition` field of the Main Camera's `Transform`
-		- [ ] Store a reference to the Light `GameObject` using `GameObject.Find()`
-		- [ ] Store a reference to the Light's `Transform` component using `GetComponent<>()`
-		- [ ] Log a reference to the `localPosition` field of the Light's `Transform`
+	- [done] Update Assets/Scripts/LearningCurve.cs
+		- [done] Store a reference to the current game object's (Main Camera) `Transform` component using `GetComponent<>()`
+		- [done] Log a reference to the `localPosition` field of the Main Camera's `Transform`
+		- [done] Store a reference to the Light `GameObject` using `GameObject.Find()`
+		- [done] Store a reference to the Light's `Transform` component using `GetComponent<>()`
+		- [done] Log a reference to the `localPosition` field of the Light's `Transform`
 
 
 
 ## Chapter 6
 Getting Your Hands Dirty with Unity (120–148)
 
-- [ ] Use primitive cubes and move, rotate, and scale tools to create a level or "world" in Unity
-- [ ] Add materials to primitives in Unity to change their color
-- [ ] Use parenting and "empty objects" in the Hierarchy tab to organize your project
-- [ ] Create, update, and use prefab game objects
-- [ ] Create timeline animations by recording keyframes and editing curves in Unity
-- [ ] Add and edit a particle system to a game object in Unity
+- [done] Use primitive cubes and move, rotate, and scale tools to create a level or "world" in Unity
+- [done] Add materials to primitives in Unity to change their color
+- [done] Use parenting and "empty objects" in the Hierarchy tab to organize your project
+- [done] Create, update, and use prefab game objects
+- [done] Create timeline animations by recording keyframes and editing curves in Unity
+- [done] Add and edit a particle system to a game object in Unity
 
 
 
@@ -153,19 +153,19 @@ Getting Your Hands Dirty with Unity (120–148)
 ## Chapter 7
 Movement, Camera Controls, and Collisions (149–175)
 
-- [ ] Movement
-	- [ ] Understand the difference between a "position vector" and a "direction vector"
-	- [ ] Capture keyboard input in C#
-	- [ ] Move and rotate a game object using `Translate()` and `Rotate()` with direction vectors
-- [ ] Camera Controls
-	- [ ] Add a script to the main camera that follows and looks at the player
-- [ ] Physics and Collisions
-	- [ ] Use `FixedUpdate()` to control game objects using Unity's physics engine
-	- [ ] Apply physics forces to a game object RigidBody using `MovePosition()`
-	- [ ] ✏️ Q: Will a [collision detection](https://docs.unity3d.com/Manual/CollidersOverview.html) occur when a Kinematic Rigidbody Collider touches a Static Collider? : **??**
-	- [ ] Use `OnCollisionEnter()` to check if a game object has run into another collider
-	- [ ] Use `Destroy()` to remove a game object from the scene
-	- [ ] Use `OnTriggerEnter()` and `OnTriggerExit()` to detect when two colliders start and stop touching
+- [done] Movement
+	- [done] Understand the difference between a "position vector" and a "direction vector"
+	- [done] Capture keyboard input in C#
+	- [done] Move and rotate a game object using `Translate()` and `Rotate()` with direction vectors
+- [done] Camera Controls
+	- [done] Add a script to the main camera that follows and looks at the player
+- [done] Physics and Collisions
+	- [done] Use `FixedUpdate()` to control game objects using Unity's physics engine
+	- [done] Apply physics forces to a game object RigidBody using `MovePosition()`
+	- [done] ✏️ Q: Will a [collision detection](https://docs.unity3d.com/Manual/CollidersOverview.html) occur when a Kinematic Rigidbody Collider touches a Static Collider? : No, collision detection doesn't occur in this case. 
+	- [done] Use `OnCollisionEnter()` to check if a game object has run into another collider
+	- [done] Use `Destroy()` to remove a game object from the scene
+	- [done] Use `OnTriggerEnter()` and `OnTriggerExit()` to detect when two colliders start and stop touching
 
 
 
@@ -175,15 +175,15 @@ Movement, Camera Controls, and Collisions (149–175)
 Scripting Game Mechanics (176–207)
 
 - Character Control
-	- [ ] Capture keyboard input in C# using the `enum` type and value `KeyCode.Space`
-	- [ ] Use `AddForce()` to make a character jump
-	- [ ] Use a `LayerMask` and a new "Ground" layer in Unity to determine if a character is "IsGrounded"
-- [ ] Add a shooting mechanic
-	- [ ] Create a "projectile" prefab that moves forward using `RigidBody.velocity`
-	- [ ] Instantiate the projectile on click and destroy it after `3` seconds
-- [ ] Create a GameManager
- 	- [ ] Use `get` and `set` properties to return and assign properties that are used across the game
-- [ ] Add a simple UI to inform the user of game state(s)
-	- [ ] Add text to show the health and items counts to the user
-	- [ ] Add a win condition to the game and display it in the UI
-	- [ ] Use `Time.timeScale = 0` to pause the game
+	- [done] Capture keyboard input in C# using the `enum` type and value `KeyCode.Space`
+	- [done] Use `AddForce()` to make a character jump
+	- [done] Use a `LayerMask` and a new "Ground" layer in Unity to determine if a character is "IsGrounded"
+- [done] Add a shooting mechanic
+	- [done] Create a "projectile" prefab that moves forward using `RigidBody.velocity`
+	- [done] Instantiate the projectile on click and destroy it after `3` seconds
+- [done] Create a GameManager
+ 	- [done] Use `get` and `set` properties to return and assign properties that are used across the game
+- [done] Add a simple UI to inform the user of game state(s)
+	- [done] Add text to show the health and items counts to the user
+	- [done] Add a win condition to the game and display it in the UI
+	- [done] Use `Time.timeScale = 0` to pause the game
